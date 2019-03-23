@@ -10,6 +10,7 @@ class ToDos extends Component {
     render() {
         let todoItems;
         console.log('this.props.todos', this.props.todos);
+        console.log('type ', typeof(this.props.todos));
         if (this.props.todos) {
             todoItems = this.props.todos.map(todo => {
                 return (

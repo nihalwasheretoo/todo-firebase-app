@@ -21,7 +21,7 @@ class AddToDo extends Component {
         } else {
             this.setState({
                 newToDo: {
-                    // Add ID
+                    // Add id
                     title: this.refs.title.value,
                     todo: this.refs.todo.value,
                     todoDate: this.refs.todoDate.value

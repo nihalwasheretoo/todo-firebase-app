@@ -1,0 +1,10 @@
+{
+    "todos" : {
+      "-K2ib4H77rj0LYewF7dP" : {
+        "email": "test@test.com",
+        "todo": "Don't forget to fetch data from the database",
+        "title": "test-todo",
+        "todoDate": "2019-01-14"
+      }
+    }
+}
