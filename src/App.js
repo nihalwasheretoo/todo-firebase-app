@@ -12,13 +12,15 @@ class App extends Component {
 
     this.state = {
       todos: [],
+      
+      // add your config here
       config: {
-        apiKey: "AIzaSyALTV34vbgmcDvTlgzEPGwr5iSBrlSjCwU",
-        authDomain: "todo-firebase-app-bf851.firebaseapp.com",
-        databaseURL: "https://todo-firebase-app-bf851.firebaseio.com",
-        projectId: "todo-firebase-app-bf851",
-        storageBucket: "todo-firebase-app-bf851.appspot.com",
-        messagingSenderId: "899605676712"
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
       },
     };
   }
